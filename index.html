@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Even Odd</title>
+    </head>
+    <body>
+        
+        <h2 id="number"></h2>
+
+        <script>
+            const num = prompt("Please enter a number")
+            var x = document.getElementById("number")
+
+            if(num % 2 == 0){
+    
+                x.innerHTML = num+" is Even Number"
+            }
+            else if(num % 2 == 1){
+            
+                x.innerText = num+" is Odd Number"
+            }
+            else{
+                x.innerHTML = "This is not a number. Invalid Input"
+            }
+        </script>
+    </body>
+</html>
